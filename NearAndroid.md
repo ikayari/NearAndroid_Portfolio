@@ -9,13 +9,12 @@
 ### 1. [作品概要](#anchor1)  
 ### 2. [操作説明](#anchor2)  
 ### 3. [ゲーム概要](#anchor3)
-### 4. [改造したエンジンのコード](#anchor4)  
-### 5. [PBR(Physics Base Rendering)](#anchor5)  
-### 6. [川瀬式ブルーム](#anchor6)  
-### 7. [ディザリング](#anchor7)
-### 8. [トゥーンシェーディング](#anchor8)
-### 9. [輪郭線描画](#anchor9)
-### 10.[反省点](#anchor10)
+### 4. [PBR(Physics Base Rendering)](#anchor5)  
+### 5. [川瀬式ブルーム](#anchor6)  
+### 6. [ディザリング](#anchor7)
+### 7. [トゥーンシェーディング](#anchor8)
+### 8. [輪郭線描画](#anchor9)
+### 9.[反省点](#anchor10)
 
 
 <a id="anchor1"></a>
@@ -71,17 +70,6 @@ Nier:Automataに登場する回避演出のようなものを作りたいと考�
 ### ジャスト回避攻撃
 ![ジャスト回避攻撃](ジャスト回避攻撃2.gif)
 
-
-
-
-<a id="anchor4"></a>
-
-# 改造したエンジンのコード
-
-- MeshParts.cpp、MeshParts.h  
-  速度マップ描画用の定数バッファ追加。
-- Model.cpp、Model.h  
-  速度マップ描画用の定数バッファを更新する処理追加。
 
 <a id="anchor5"></a>
 # PBR(PhysicsBaseRendering)
